@@ -36,44 +36,4 @@ app.post('/api/mission', express.json(), async (req, res) => {
   }
 });
 // Trigger your mission/agent/brain function
-runMission?.("🚀 Mission: Complete and Deploy GA Dashboard
-
-🎯 Goal:
-Finalize, fix, and fully deploy the GA Dashboard analytics platform. Ensure all frontend components function, backend APIs respond correctly, and visual polish meets modern design standards.
-
-🧩 Tasks:
-1. Finalize and render radar-style world map background with animated SVG radar sweep and pulsing blue dots based on geo activity.
-2. Ensure Chart.js displays a responsive, animated multi-line graph of pagePath traffic.
-3. Render Top Pages list with pagePath and view count.
-4. Render Session Metrics: avg session time, bounce rate, engaged sessions, total sessions.
-5. Fetch and render real-time geo data (active users by country) and live active user count.
-6. Add radar ping crawler for mentions of "Gary Gabel" or "The Constitution Kids" (Google search-based, daily update at 8am).
-7. Implement dark/light theme toggle.
-8. Animate all charts and maps with smooth transitions, gradients, and glow effects.
-9. Enable "Check Radar" button to manually reload pings from `/api/radar/google`.
-10. Host on DigitalOcean App Platform and ensure `.env` variables are set:
-    - `GA_CREDENTIALS_PATH`
-    - `GA_PROPERTY_ID`
-    - `OPENAI_API_KEY`
-
-✅ Constraints:
-- Clean UI/UX (dark mode default)
-- Responsive on desktop/tablet
-- Secure: no exposed secrets, GA keys in `.env` only
-- Push-ready GitHub repo (`main` branch)
-
-🎯 Success Criteria:
-- All frontend components visually load and update
-- Backend routes respond with live analytics data
-- No console errors in browser or terminal
-- Deployment passes health checks and is publicly live
-
-🗂 Output Expected:
-- `/public/index.html`
-- `/public/style.css`
-- `/public/script.js`
-- `/server.js` updated
-- `/api/*` routes functional
-- `.env` structure documented
-
-⏱️ Deadline: Immediate execution"); // Call your AI logic here
+runMission?.(); // Call your AI logic here
