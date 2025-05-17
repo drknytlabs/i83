@@ -36,7 +36,7 @@ app.post('/api/mission', express.json(), async (req, res) => {
   }
 });
 // Trigger your mission/agent/brain function
-runMission?.(🚀 Mission: Complete and Deploy GA Dashboard
+runMission?.("🚀 Mission: Complete and Deploy GA Dashboard
 
 🎯 Goal:
 Finalize, fix, and fully deploy the GA Dashboard analytics platform. Ensure all frontend components function, backend APIs respond correctly, and visual polish meets modern design standards.
@@ -76,4 +76,4 @@ Finalize, fix, and fully deploy the GA Dashboard analytics platform. Ensure all 
 - `/api/*` routes functional
 - `.env` structure documented
 
-⏱️ Deadline: Immediate execution`); // Call your AI logic here
+⏱️ Deadline: Immediate execution"); // Call your AI logic here
