@@ -1,1 +1,32 @@
+# Node modules (local dependencies)
+node_modules/
+
+# dotenv credentials
 .env
+.env.*
+
+# OS files
+.DS_Store
+
+# Logs and debug
+*.log
+npm-debug.log*
+
+# VS Code project files
+.vscode/
+
+# Output / builds / cache
+dist/
+build/
+.cache/
+
+# Credential files (optional — adjust as needed)
+ga-credentials.json
+credentials/
+*.key
+*.pem
+
+# Ignore test outputs or scratchpads
+*.tmp
+temp/
+__output__
