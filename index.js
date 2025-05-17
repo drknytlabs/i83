@@ -1,3 +1,18 @@
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 8080;
+
+// Simple health route
+app.get('/', (req, res) => {
+  res.send('🧠 i83 is alive and operational.');
+});
+
+app.listen(PORT, () => {
+  console.log(`✅ Listening on port ${PORT}`);
+});
+
+// Run mission or background logic
+runMission();
 const fs = require('fs');
 const strategist = require('./agents/strategist');
 const engineer = require('./agents/engineer');
